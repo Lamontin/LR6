@@ -44,4 +44,25 @@
 10.	**Создание ветки**
     Создаем ветку report для отчёта.
     ![Шаг 10](screenshots/screenshot13.png) 
+
+# Лог команд  #
+```sh
+
+> git config --global user.name "4918 Евдокимова Д.А."
+> git config --global user.email dasha.eudokimova@yandex.ru
+> git clone https://github.com/Lamontin/LR6
+> git pull      				
+> git log    					 
+> git log -2 					
+> git merge branch1				
+> git branch -d branch1 		       
+> git add myFile  	                       
+> git commit -m "change№1 myFile"   
+> git add myFile                        
+> git commit -m "change№2 myFile"   
+> git reset --hard @~2			     
+> git branch report 			       
+> git checkout report
+  
+```
     
